@@ -17,7 +17,7 @@ h1{
 	float: left;width: 30%;line-height: 2em;
 }
 .img{
-	float: right;width: 20%;margin: 5px;
+	float: left;margin: 5px;margin-top: 16px;
 }
 li::before {
 	content: counter(num) '. '; 
@@ -39,7 +39,7 @@ ol {
 	counter-reset: num;
 }
 .music{
-	float: right;width: 45%;margin-right: 200px;
+	float: right;margin-right: 160px;
 }
 a {
 	color: orange;
