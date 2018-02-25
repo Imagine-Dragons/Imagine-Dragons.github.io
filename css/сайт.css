@@ -1,0 +1,108 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+body {
+	color: white;
+	background: black;
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	text-indent: 40px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	font-size: 45px;
+	font-family: Helvetica;
+}
+.header{
+	background: black;
+	height: 100px;
+	padding-left: 370px;
+	margin-bottom: 40px;	
+}
+.content{
+	background: black;
+	color: white;
+	padding: 20px 60px;
+}
+.content p{
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	text-indent: 75px;	
+}
+.content li{
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	text-indent: 40px;
+}
+.content ol {
+	list-style-type: none;
+	counter-reset: num;
+}
+.content li::before {
+	content: counter(num) '. '; 
+	counter-increment: num;
+	color: orange;
+	font-style: italic;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.table{
+	padding: 30px 160px;
+}
+.table table{
+	background: white;
+	width: 100%;
+}
+.table table tr td{
+	background: black;
+	text-align: left;
+	vertical-align: middle;
+	padding: 10px;
+}
+.albums{
+	padding: 30px 160px;
+}
+.hyperkarta{
+	padding: 30px 320px;
+}
+.hyperkarta table tr td{
+	font-size: 25px;
+	padding-top: 10px;
+}
+.video{
+	padding: 30px 320px;
+}
+table {
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	color: orange;
+}
+table tr td{
+	text-align: center;
+	vertical-align: center;
+}
+table th{
+	color: white;
+	font-size: 40px;
+	padding-bottom: 40px;
+}
+a {
+	color: orange;
+	text-decoration: none;
+}
+a:visited{
+	color: #FF4500	;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
